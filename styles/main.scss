@@ -1,0 +1,30 @@
+@import 'page.scss';
+@import 'header.scss';
+@import 'marquee.scss';
+@import 'section.scss';
+@import 'project.scss';
+@import 'table.scss';
+@import 'button.scss';
+@import 'utils.scss';
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-overflow-scrolling: touch; // momentum scroll for mobile safari
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', 'Open Sans', sans-serif;
+  color: rgba(0,0,0, .5);
+}
+
+a, .Anchor {
+  color: #4CA6FF;
+  text-decoration: none;
+}
+
+.Anchor--light {
+  color: #FFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// Table
+// -----------------------------------------------------------------------------
+.Table {
+  margin-top: -3em;
+  background-color: #fff;
+  border-radius: 4px;
+  border-collapse: collapse;
+  font-size: 14px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 9em;
+  margin-bottom: 9rem;
+}
+
+.Table th {
+  border-radius: 4px 4px 0 0;
+  color: #333;
+  padding: 1em;
+  font-size: 1.4em;
+  border-bottom: 1px solid #EEE;
+  font-weight: 400;
+}
+
+.Table tr:first-of-type td {
+  padding-top: .6em;
+}
+
+.Table tr:last-of-type td {
+  padding-bottom: .6em;
+  border-bottom: none;
+}
+
+.Table tr:nth-of-type(2n + 2) td {
+  // background-color: rgba(0,0,0, .02);
+}
+
+.Table td {
+  padding: .75em 1.5em;
+  border-bottom: 1px solid #eee;
+}
+
+.Table b {
+  color: #444;
+}

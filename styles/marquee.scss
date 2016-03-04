@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// Marquee
+// -----------------------------------------------------------------------------
+.Marquee {
+  background-image: url('../images/bg.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+.Marquee-bg {
+  background: linear-gradient(90deg, rgba(0, 198, 255, .7) 10%, rgba(0, 114, 255, .7) 90%);
+
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Marquee-main {
+  flex: auto;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Marquee-content {
+  padding: 0 1em;
+}
+
+.Marquee-content > * {
+  max-width: 400px;
+}
+
+.Marquee-flexSpacer {
+  flex: auto;
+  flex-grow: 2;
+}
+
+.Marquee-heading {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.Marquee-subheading {
+  color: #fff;
+  font-weight: 200;
+  text-shadow: 0 1px 3px rgba(0,0,0, .3);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.1);
+}

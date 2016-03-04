@@ -1,0 +1,38 @@
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Header-content {
+  width: 100%;
+}
+
+.Header-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(90deg, rgba(0, 198, 255, .98) 10%, rgba(0, 114, 255, .98) 90%);
+  opacity: 0.72;
+  transition: all 150ms ease-out;
+}
+
+.Header-bg.opaque {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+header a {
+  margin-right: 2em;
+  line-height: 46px;
+  color: rgba(255, 255, 255, .9);
+}
+

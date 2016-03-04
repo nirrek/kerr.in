@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// Button
+// -----------------------------------------------------------------------------
+.Button {
+  border: 1px solid;
+  border-radius: 1.5em;
+  color: #fff;
+  // color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  padding: .6em 1.1em;
+  transition: color ease-out 200ms;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.Button--dark {
+  color: rgba(20, 20, 20, 0.8);
+
+  &:hover {
+    color: #000;
+  }
+}

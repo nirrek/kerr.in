@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// Page
+// -----------------------------------------------------------------------------
+.Page {}
+
+.Page-Closer {
+  color: #fff;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  text-decoration: none;
+}
+
+.ProjectMarquee {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 6em 0;
+}
+
+.Project-Icon {
+  margin-bottom: 2.5em;
+  filter: drop-shadow(0px 1px 1px rgba(0,0,0, .3));
+  user-select: none;
+}
+
+.Project-Actions > * {
+  margin: 0 .5em;
+}
+
+.Project-Overview {
+  max-width: 30em;
+  color: #333;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.Project-Overview > h3 {
+  color: #111;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+h3 + p {
+  margin-top: .25em;
+}
