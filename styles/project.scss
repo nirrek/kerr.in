@@ -24,6 +24,24 @@
   padding: 1em 1em 0;
 }
 
+.Project--squashScorer {
+  background-color: #5CD68E;
+
+  & > .Project-blurb {
+    color: #fff;
+    text-shadow: rgba(13, 60, 33, 0.18) 0 1px 2px;
+  }
+}
+
+.Project--player {
+  background-color: #0097ff;
+  color: #fff;
+
+  & > .Project-blurb {
+    color: #fff;
+  }
+}
+
 .Project--uqdraw {
   background-color: #5C42AB;
 
@@ -60,9 +78,5 @@
   & > .Project-blurb {
     color: #fff;
     text-shadow: rgba(13, 60, 33, 0.18) 0 1px 2px;
-  }
-
-  & > .Button {
-    color: #fff;
   }
 }

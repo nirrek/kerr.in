@@ -3,6 +3,14 @@ import { Link } from 'react-router';
 
 // Project-specific configuration.
 const projectConfig = {
+  squashScorer: {
+    logo: <img height="55" src={require('../../images/project-icon-squash.svg')} />,
+    isDarkBg: true,
+  },
+  player: {
+    logo: <img height="81" src={require('../../images/project-icon-player.svg')} />,
+    isDarkBg: true,
+  },
   wallfly: {
     logo: <img height="55"
                src={require('../../images/project-icon-wallfly.svg')} />,

@@ -47,6 +47,18 @@ const ProjectMarquee = ({ project }) => {
 }
 
 const projectDetails = {
+  squashScorer: {
+    icon: require('../../images/project-icon-squash.svg'),
+    iconHeight: 55,
+    website: 'http://squashscorer.surge.sh',
+    github: 'https://github.com/nirrek/squash-scorer',
+  },
+  player: {
+    icon: require('../../images/project-icon-player.svg'),
+    iconHeight: 80,
+    website: 'http://player.surge.sh',
+    github: 'https://github.com/nirrek/player',
+  },
   wallfly: {
     icon: require('../../images/project-icon-wallfly.svg'),
     iconHeight: 55,
@@ -74,6 +86,16 @@ const projectDetails = {
 };
 
 const styles = {
+  squashScorer: {
+    ProjectMarquee: {
+      backgroundColor: '#5CD68E',
+    }
+  },
+  player: {
+    ProjectMarquee: {
+      backgroundColor: '#0097ff',
+    }
+  },
   wallfly: {
     ProjectMarquee: {
       backgroundColor: '#2ECC71',

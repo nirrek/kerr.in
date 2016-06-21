@@ -104,6 +104,14 @@ export default class MainPage extends Component {
           <h3 className="Section-heading">Projects</h3>
           <div className="Section-summary"> Below you can find a sample of some of the sites & applications that I have worked on in recent times.</div>
 
+          <Project name="squashScorer">
+            <b>SquashScorer</b> is a Progressive Web App (PWA) for scoring squash matches. It uses Service Workers & a Web App Manifest to work fully offline, and allow installation as a standalone app.
+          </Project>
+
+          <Project name="player">
+            <b>Player</b> is a music player built backed by the Soundcloud API. The player is built using React, Redux & redux-saga.
+          </Project>
+
           <Project name="wallfly">
             Wallfly is a rental property management platform for owners, agents, and tenants. It provides a single touch-point for all aspects of a rental property for the three parties involved.
           </Project>
