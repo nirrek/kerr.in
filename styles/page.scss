@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 .Page {}
 
-.Page-Closer {
+.Page-closer {
   color: #fff;
   position: absolute;
   top: 1em;
@@ -20,27 +20,26 @@
   padding: 6em 0;
 }
 
-.Project-Icon {
+.Project-icon {
   margin-bottom: 2.5em;
   filter: drop-shadow(0px 1px 1px rgba(0,0,0, .3));
   user-select: none;
 }
 
-.Project-Actions > * {
+.Project-actions > * {
   margin: 0 .5em;
 }
 
-.Project-Overview {
+.Project-overview {
   max-width: 30em;
   color: #333;
-  padding: 1em;
+  padding: 2em 1em;
   margin: 0 auto;
 }
 
-.Project-Overview > h3 {
+.Project-overview > h3 {
   color: #111;
-  margin-bottom: 0;
-  margin-top: 2em;
+  margin: 0;
 }
 
 h3 + p {

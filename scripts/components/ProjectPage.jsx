@@ -29,10 +29,10 @@ const ProjectPage = ({ project, className='', children }, { history }) => {
   return (
     <div className={cssClassList} style={{ zIndex: 2 }}>
       <ProjectMarquee project={project} />
-      <a href="#" className="Page-Closer" onClick={onBackClick}>
+      <a href="#" className="Page-closer" onClick={onBackClick}>
         <Icon icon="arrow-back" />
       </a>
-      <div className="Project-Overview">
+      <div className="Project-overview">
         {children}
       </div>
     </div>

@@ -9,8 +9,9 @@ const UqdrawPage = () => (
   <ProjectPage project="uqdraw">
     <h3>Core Technologies</h3>
     <ul>
-      <li>React/Flux</li>
-      <li>Firebase</li>
+      <li>React</li>
+      <li>Redux</li>
+      <li>GraphQL</li>
       <li>Canvas</li>
       <li>ES2015 (via Babel)</li>
       <li>Webpack</li>
@@ -21,7 +22,7 @@ const UqdrawPage = () => (
 
     <p>The project was developed for the eLearning team at the University of Queensland after they solicited the development proof-of-concept prototypes for the app.</p>
 
-    <p>The app is architected as a React/Flux app on the client, and uses Firebase as the persistence layer. The drawing tool is built using HTML5 Canvas and uses Touchy for gesture support on mobile.</p>
+    <p>The app is architected as a React/Redux app on the client which talks to a GraphQL server on the backend. The drawing tool is built using HTML5 Canvas and uses Touchy for gesture support on mobile.</p>
   </ProjectPage>
 );
 

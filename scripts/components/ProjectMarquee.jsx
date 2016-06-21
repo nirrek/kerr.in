@@ -31,11 +31,13 @@ const ProjectMarquee = ({ project }) => {
 
   return (
     <div className='ProjectMarquee' style={style.ProjectMarquee}>
-      <img className="Project-Icon" height={iconHeight} src={icon} />
-      <div className="Project-Actions">
-        <Button href={website} icon="open-in-new" color="#fff">
-          View Site
-        </Button>
+      <img className="Project-icon" height={iconHeight} src={icon} />
+      <div className="Project-actions">
+        {website && (
+          <Button href={website} icon="open-in-new" color="#fff">
+            View Site
+          </Button>
+        )}
         <Button href={github} icon="post-github" color="#fff">
           View the Code
         </Button>
@@ -54,7 +56,7 @@ const projectDetails = {
   uqdraw: {
     icon: require('../../images/project-icon-uqdraw.min.svg'),
     iconHeight: 55,
-    website: 'http://uqdraw.co/?demo=true',
+    // website: 'http://uqdraw.co/?demo=true',
     github: 'https://github.com/nirrek/uqdraw',
   },
   ace: {
